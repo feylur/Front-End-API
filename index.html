@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patients Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Patients Management System</h1>
+    <div class="form">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" required><br><br>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="gender">Gender:</label>
+      <input type="text" id="gender" name="gender" required><br><br>
+
+      <button id="submitBtn" class="add-btn">Add Patient</button>
+    </div>
+    <div class="patients-list">
+      <h2>Patients List</h2>
+      <ul id="patientsList"></ul>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
